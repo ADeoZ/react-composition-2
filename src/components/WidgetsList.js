@@ -1,9 +1,18 @@
 import Widget from "./Widget";
 import Weather from "./Weather";
-import FavoritesItem from "./FavoritesItem";
-import TvItem from "./TvItem";
-import EfirItem from "./EfirItem";
+import FavoritesItem from "./ListItems/FavoritesItem";
+import TvItem from "./ListItems/TvItem";
+import EfirItem from "./ListItems/EfirItem";
 
+/**
+ * Компонент "Блок дополнительных виджетов"
+ * Обеспечивает вывод виджетов в три колонки с помощью компонента Widget
+ * Выводит виджет "Погода" с помощью компонента Weather
+ * Выводит виджет "Посещаемое" через перечисляемый компонент FavoritesItem
+ * Выводит виджет "Карта"
+ * Выводит виджет "Телепрограмма" через перечисляемый компонент TvItem
+ * Выводит виджет "Эфир" через перечисляемый компонент EfirItem
+ */
 export default function WidgetsList() {
   return (
     <section>

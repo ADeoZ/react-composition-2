@@ -1,4 +1,10 @@
-export default function Banner({ image }) {
+/**
+ * Компонент "Рекламный горизонтальный баннер"
+ * Принимает props:
+ * - изображение баннера
+ * - ссылка на сайт рекламодателя
+ */
+export default function Banner({ image, link }) {
   return (
     <div></div>
   );
